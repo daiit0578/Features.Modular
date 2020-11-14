@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>Feature.OrchardCore.Modular</PackageId>
+    <Authors>Daiit</Authors>
+    <Company>HDVietNam</Company>
+    <Product>Feature.OrchardCore.Modular</Product>
+    <Description>Convention in asp net core features on orchardcore</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>

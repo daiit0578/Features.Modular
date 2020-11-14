@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Feature.OrchardCore.Modular" Version="1.0.0" />
+    <PackageReference Include="OrchardCore.Application.Targets" Version="1.0.0-rc2-13450" />
+    <PackageReference Include="OrchardCore.Mvc.Core" Version="1.0.0-rc2-13450" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HD.Station.OrchardCore.Modular.ClassLabrarry1\HD.Station.OrchardCore.Modular.ClassLabrarry1.csproj" />
+    <ProjectReference Include="..\HD.Station.OrchardCore.Modular.ClassLabrary\HD.Station.OrchardCore.Modular.ClassLabrary.csproj" />
+  </ItemGroup>
+</Project>
